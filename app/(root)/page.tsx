@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderBox from "@/components/HeaderBox";
 import TotalBalanceBox from "@/components/TotalBalanceBox";
-import RightSideBar from "@/components/RightSideBar";
+import RightSideBar from "@/components/RightSIdeBar";
 
 const Home = () => {
   const loggedIn = {

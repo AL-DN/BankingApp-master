@@ -6,7 +6,7 @@ import { cookies } from "next/headers";
 export async function createSessionClient() {
     // creates new appwrite client
     const client = new Client()
-    // set endpoint and project so it knows exxactly what project to modify
+    // set endpoint and project so it knows exactly what project to modify
     .setEndpoint(process.env.NEXT_PUBLIC_APPWRITE_ENDPOINT!)
     .setProject(process.env.NEXT_PUBLIC_APPWRITE_PROJECT!);
   // 
